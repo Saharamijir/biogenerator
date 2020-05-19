@@ -1,0 +1,19 @@
+{
+  "name": "biogenerator",
+  "version": "1.0.0",
+  "description": "tool for generating image with discord status for Anilist profile",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node out/index.js -w"
+  },
+  "author": "Tomasz Zając",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.3",
+    "@types/ws": "^7.2.4",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1"
+  }
+}
